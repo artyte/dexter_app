@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72.151" height="72.151" viewBox="0 0 72.151 72.151">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="0.984" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ec8ce5"/>
+      <stop offset="1" stop-color="#f3a7e7"/>
+    </linearGradient>
+    <filter id="Background" x="0" y="0" width="72.151" height="72.151" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-color="#f294e9" flood-opacity="0.729"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Fairy" transform="translate(4.5 4.5)">
+    <g transform="matrix(1, 0, 0, 1, -4.5, -4.5)" filter="url(#Background)">
+      <path id="Background-2" data-name="Background" d="M31.576,0A31.576,31.576,0,1,1,0,31.576,31.576,31.576,0,0,1,31.576,0Z" transform="translate(4.5 4.5)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Icon" transform="translate(12.769 16.617)">
+      <path id="Path_38" data-name="Path 38" d="M8.178,0A8.178,8.178,0,1,1,0,8.178,8.178,8.178,0,0,1,8.178,0Z" transform="translate(11.018 8.433)" fill="#fff"/>
+      <g id="Wings" transform="translate(0 0)">
+        <path id="Path_33" data-name="Path 33" d="M0,0S5.2,1.326,4.892,3.553C4.919,5.132,4.565,5.972.013,5.972,1.41.82,0,0,0,0Z" transform="matrix(0.719, 0.695, -0.695, 0.719, 28.381, 22.204)" fill="#fff"/>
+        <path id="Path_35" data-name="Path 35" d="M0,3.654S9.283-2.068,11.9.809,8.91,9.274,4.619,11.125C5.9,6.411,0,3.654,0,3.654Z" transform="translate(23.726 2.398) rotate(-11)" fill="#fff"/>
+        <path id="Path_36" data-name="Path 36" d="M0,5.972S5.2,4.646,4.892,2.419C4.919.84,4.565,0,.013,0,1.41,5.152,0,5.972,0,5.972Z" transform="matrix(-0.719, 0.695, -0.695, -0.719, 13.455, 26.5)" fill="#fff"/>
+        <path id="Path_37" data-name="Path 37" d="M0,7.471s9.283,5.722,11.9,2.845S8.91,1.851,4.619,0C5.9,4.714,0,7.471,0,7.471Z" transform="translate(12.337 13.318) rotate(-169)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

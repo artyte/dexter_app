@@ -1,0 +1,373 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render navbar with blur in pc page 1`] = `
+<DocumentFragment>
+  <nav
+    class="sc-AxhCb umvJw"
+    data-testid="navBar"
+  >
+    <li
+      class="sc-AxirZ fJJekH"
+    >
+      <button
+        class="sc-AxjAm dkMHIj"
+        data-testid="toggleProfile"
+      >
+        <img
+          alt="profile"
+          src="user.svg"
+        />
+      </button>
+    </li>
+    <li
+      class="sc-AxirZ fJJekH"
+    >
+      <button
+        class="sc-AxjAm dkMHIj"
+        data-testid="switchBox"
+      >
+        <img
+          alt="pc"
+          src="pc.svg"
+        />
+      </button>
+    </li>
+    <li
+      class="sc-AxirZ fJJekH"
+    >
+      <button
+        class="sc-AxjAm dkMHIj"
+        data-testid=""
+      >
+        <img
+          alt="port"
+          src="port.svg"
+        />
+      </button>
+    </li>
+    <li
+      class="sc-AxiKw dfPWIn"
+    >
+      <button
+        class="sc-AxjAm dkMHIj"
+        data-testid=""
+      >
+        <img
+          alt="login"
+          src="login.svg"
+        />
+      </button>
+    </li>
+  </nav>
+</DocumentFragment>
+`;
+
+exports[`Render navbar with blur in pc page 2`] = `
+<DocumentFragment>
+  <nav
+    class="sc-AxhCb gTisAF"
+    data-testid="navBar"
+  >
+    <li
+      class="sc-AxirZ fJJekH"
+    >
+      <button
+        class="sc-AxjAm dkMHIj"
+        data-testid="toggleProfile"
+      >
+        <img
+          alt="profile"
+          src="user.svg"
+        />
+      </button>
+    </li>
+    <li
+      class="sc-AxirZ fJJekH"
+    >
+      <button
+        class="sc-AxjAm dkMHIj"
+        data-testid="switchBox"
+      >
+        <img
+          alt="pc"
+          src="pc.svg"
+        />
+      </button>
+    </li>
+    <li
+      class="sc-AxirZ fJJekH"
+    >
+      <button
+        class="sc-AxjAm dkMHIj"
+        data-testid=""
+      >
+        <img
+          alt="port"
+          src="port.svg"
+        />
+      </button>
+    </li>
+    <li
+      class="sc-AxiKw dfPWIn"
+    >
+      <button
+        class="sc-AxjAm dkMHIj"
+        data-testid=""
+      >
+        <img
+          alt="login"
+          src="login.svg"
+        />
+      </button>
+    </li>
+  </nav>
+</DocumentFragment>
+`;
+
+exports[`Render navbar with blur in team page 1`] = `
+<DocumentFragment>
+  <nav
+    class="sc-AxhCb umvJw"
+    data-testid="navBar"
+  >
+    <li
+      class="sc-AxirZ fJJekH"
+    >
+      <button
+        class="sc-AxjAm dkMHIj"
+        data-testid="toggleProfile"
+      >
+        <img
+          alt="profile"
+          src="user.svg"
+        />
+      </button>
+    </li>
+    <li
+      class="sc-AxirZ fJJekH"
+    >
+      <button
+        class="sc-AxjAm dkMHIj"
+        data-testid=""
+      >
+        <img
+          alt="team"
+          src="team.svg"
+        />
+      </button>
+    </li>
+    <li
+      class="sc-AxirZ fJJekH"
+    >
+      <button
+        class="sc-AxjAm dkMHIj"
+        data-testid=""
+      >
+        <img
+          alt="port"
+          src="port.svg"
+        />
+      </button>
+    </li>
+    <li
+      class="sc-AxiKw dfPWIn"
+    >
+      <button
+        class="sc-AxjAm dkMHIj"
+        data-testid=""
+      >
+        <img
+          alt="login"
+          src="login.svg"
+        />
+      </button>
+    </li>
+  </nav>
+</DocumentFragment>
+`;
+
+exports[`Render navbar with blur in team page 2`] = `
+<DocumentFragment>
+  <nav
+    class="sc-AxhCb gTisAF"
+    data-testid="navBar"
+  >
+    <li
+      class="sc-AxirZ fJJekH"
+    >
+      <button
+        class="sc-AxjAm dkMHIj"
+        data-testid="toggleProfile"
+      >
+        <img
+          alt="profile"
+          src="user.svg"
+        />
+      </button>
+    </li>
+    <li
+      class="sc-AxirZ fJJekH"
+    >
+      <button
+        class="sc-AxjAm dkMHIj"
+        data-testid=""
+      >
+        <img
+          alt="team"
+          src="team.svg"
+        />
+      </button>
+    </li>
+    <li
+      class="sc-AxirZ fJJekH"
+    >
+      <button
+        class="sc-AxjAm dkMHIj"
+        data-testid=""
+      >
+        <img
+          alt="port"
+          src="port.svg"
+        />
+      </button>
+    </li>
+    <li
+      class="sc-AxiKw dfPWIn"
+    >
+      <button
+        class="sc-AxjAm dkMHIj"
+        data-testid=""
+      >
+        <img
+          alt="login"
+          src="login.svg"
+        />
+      </button>
+    </li>
+  </nav>
+</DocumentFragment>
+`;
+
+exports[`Render navbar without blur 1`] = `
+<DocumentFragment>
+  <nav
+    class="sc-AxhCb umvJw"
+    data-testid="navBar"
+  >
+    <li
+      class="sc-AxirZ fJJekH"
+    >
+      <button
+        class="sc-AxjAm dkMHIj"
+        data-testid=""
+      >
+        <img
+          alt="profile"
+          src="user.svg"
+        />
+      </button>
+    </li>
+    <li
+      class="sc-AxirZ fJJekH"
+    >
+      <button
+        class="sc-AxjAm dkMHIj"
+        data-testid="switchBox"
+      >
+        <img
+          alt="team"
+          src="team.svg"
+        />
+      </button>
+    </li>
+    <li
+      class="sc-AxirZ fJJekH"
+    >
+      <button
+        class="sc-AxjAm dkMHIj"
+        data-testid=""
+      >
+        <img
+          alt="port"
+          src="port.svg"
+        />
+      </button>
+    </li>
+    <li
+      class="sc-AxiKw dfPWIn"
+    >
+      <button
+        class="sc-AxjAm dkMHIj"
+        data-testid=""
+      >
+        <img
+          alt="login"
+          src="login.svg"
+        />
+      </button>
+    </li>
+  </nav>
+</DocumentFragment>
+`;
+
+exports[`Render navbar without blur 2`] = `
+<DocumentFragment>
+  <nav
+    class="sc-AxhCb umvJw"
+    data-testid="navBar"
+  >
+    <li
+      class="sc-AxirZ fJJekH"
+    >
+      <button
+        class="sc-AxjAm dkMHIj"
+        data-testid=""
+      >
+        <img
+          alt="profile"
+          src="user.svg"
+        />
+      </button>
+    </li>
+    <li
+      class="sc-AxirZ fJJekH"
+    >
+      <button
+        class="sc-AxjAm dkMHIj"
+        data-testid="switchBox"
+      >
+        <img
+          alt="pc"
+          src="pc.svg"
+        />
+      </button>
+    </li>
+    <li
+      class="sc-AxirZ fJJekH"
+    >
+      <button
+        class="sc-AxjAm dkMHIj"
+        data-testid=""
+      >
+        <img
+          alt="port"
+          src="port.svg"
+        />
+      </button>
+    </li>
+    <li
+      class="sc-AxiKw dfPWIn"
+    >
+      <button
+        class="sc-AxjAm dkMHIj"
+        data-testid=""
+      >
+        <img
+          alt="login"
+          src="login.svg"
+        />
+      </button>
+    </li>
+  </nav>
+</DocumentFragment>
+`;

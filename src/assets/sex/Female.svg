@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72" height="72" viewBox="0 0 72 72">
+  <defs>
+    <filter id="Path_5" x="0" y="0" width="72" height="72" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-color="#ff9ff3"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Female" transform="translate(-565.5 -57.5)">
+    <g transform="matrix(1, 0, 0, 1, 565.5, 57.5)" filter="url(#Path_5)">
+      <path id="Path_5-2" data-name="Path 5" d="M31.5,0A31.5,31.5,0,1,1,0,31.5,31.5,31.5,0,0,1,31.5,0Z" transform="translate(4.5 4.5)" fill="#ff9ff3"/>
+    </g>
+    <g id="Group_9" data-name="Group 9" transform="translate(589.895 78.579)">
+      <g id="Ellipse_6" data-name="Ellipse 6" transform="translate(0.105 0.421)" fill="none" stroke="#fff" stroke-width="3">
+        <circle cx="11.5" cy="11.5" r="11.5" stroke="none"/>
+        <circle cx="11.5" cy="11.5" r="10" fill="none"/>
+      </g>
+      <line id="Line_2" data-name="Line 2" y2="8.784" transform="translate(11.705 22.78)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+      <line id="Line_3" data-name="Line 3" x2="8.131" transform="translate(7.639 26.262)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+    </g>
+  </g>
+</svg>

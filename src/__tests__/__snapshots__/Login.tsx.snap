@@ -1,0 +1,1915 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Create account failure tests 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="sc-AxjAm dGAgku"
+      data-testid=""
+    />
+    <div
+      class="sc-AxirZ dwGSXK"
+    >
+      <div
+        class="sc-AxiKw gdDiKF"
+      >
+        <div
+          class="sc-AxhCb dNvbvJ"
+        >
+          <p
+            class="sc-AxmLO fmhwkM"
+          >
+            Continue With
+          </p>
+        </div>
+        <div
+          class="sc-AxhUy eBWnlu"
+        >
+          <button
+            class="sc-AxheI kCcFVP"
+          >
+            <img
+              alt="close"
+              class="sc-Axmtr xwXrz"
+              data-testid=""
+              src="close.svg"
+            />
+          </button>
+        </div>
+      </div>
+      <div
+        class="sc-AxgMl gDiEuY"
+      >
+        <p
+          class="sc-fzpans efksjk"
+        >
+          OR
+        </p>
+        <form
+          class="sc-fzplWN bDlKtQ"
+        >
+          <input
+            class="sc-fznyAO bXnrNn"
+            data-testid="id"
+            placeholder="e-mail"
+            type="text"
+          />
+          <input
+            class="sc-fznyAO bXnrNn"
+            data-testid="password"
+            placeholder="password"
+            type="password"
+          />
+          <button
+            class="sc-fznZeY eMLFed"
+            data-testid=""
+            type="submit"
+          >
+            Login
+          </button>
+          <button
+            class="sc-fzokOt iLJQxO"
+            data-testid="create"
+            type="submit"
+          >
+            Create
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Create account failure tests 2`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="sc-AxjAm dGAgku"
+      data-testid=""
+    />
+    <div
+      class="sc-AxirZ dwGSXK"
+    >
+      <div
+        class="sc-AxiKw gdDiKF"
+      >
+        <div
+          class="sc-AxhCb dNvbvJ"
+        >
+          <p
+            class="sc-AxmLO fmhwkM"
+          >
+            Continue With
+          </p>
+        </div>
+        <div
+          class="sc-AxhUy eBWnlu"
+        >
+          <button
+            class="sc-AxheI kCcFVP"
+          >
+            <img
+              alt="close"
+              class="sc-Axmtr xwXrz"
+              data-testid=""
+              src="close.svg"
+            />
+          </button>
+        </div>
+      </div>
+      <div
+        class="sc-AxgMl gDiEuY"
+      >
+        <p
+          class="sc-fzpans efksjk"
+        >
+          OR
+        </p>
+        <form
+          class="sc-fzplWN bDlKtQ"
+        >
+          <input
+            class="sc-fznyAO bXnrNn"
+            data-testid="id"
+            placeholder="e-mail"
+            type="text"
+          />
+          <span
+            class="sc-fznKkj TOSJF"
+            data-testid="userError"
+          >
+            E-mail is empty!
+          </span>
+          <input
+            class="sc-fznyAO bXnrNn"
+            data-testid="password"
+            placeholder="password"
+            type="password"
+          />
+          <span
+            class="sc-fznKkj TOSJF"
+            data-testid="passError"
+          >
+            Please enter a password with 6 or more characters!
+          </span>
+          <button
+            class="sc-fznZeY eMLFed"
+            data-testid=""
+            type="submit"
+          >
+            Login
+          </button>
+          <button
+            class="sc-fzokOt iLJQxO"
+            data-testid="create"
+            type="submit"
+          >
+            Create
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Create account failure tests 3`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="sc-AxjAm dGAgku"
+      data-testid=""
+    />
+    <div
+      class="sc-AxirZ dwGSXK"
+    >
+      <div
+        class="sc-AxiKw gdDiKF"
+      >
+        <div
+          class="sc-AxhCb dNvbvJ"
+        >
+          <p
+            class="sc-AxmLO fmhwkM"
+          >
+            Continue With
+          </p>
+        </div>
+        <div
+          class="sc-AxhUy eBWnlu"
+        >
+          <button
+            class="sc-AxheI kCcFVP"
+          >
+            <img
+              alt="close"
+              class="sc-Axmtr xwXrz"
+              data-testid=""
+              src="close.svg"
+            />
+          </button>
+        </div>
+      </div>
+      <div
+        class="sc-AxgMl gDiEuY"
+      >
+        <p
+          class="sc-fzpans efksjk"
+        >
+          OR
+        </p>
+        <form
+          class="sc-fzplWN bDlKtQ"
+        >
+          <input
+            class="sc-fznyAO bXnrNn"
+            data-testid="id"
+            placeholder="e-mail"
+            type="text"
+          />
+          <span
+            class="sc-fznKkj TOSJF"
+            data-testid="userError"
+          >
+            E-mail is empty!
+          </span>
+          <input
+            class="sc-fznyAO bXnrNn"
+            data-testid="password"
+            placeholder="password"
+            type="password"
+          />
+          <span
+            class="sc-fznKkj TOSJF"
+            data-testid="passError"
+          >
+            Please enter a password with 6 or more characters!
+          </span>
+          <button
+            class="sc-fznZeY eMLFed"
+            data-testid=""
+            type="submit"
+          >
+            Login
+          </button>
+          <button
+            class="sc-fzokOt iLJQxO"
+            data-testid="create"
+            type="submit"
+          >
+            Create
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Create account failure tests 4`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="sc-AxjAm dGAgku"
+      data-testid=""
+    />
+    <div
+      class="sc-AxirZ dwGSXK"
+    >
+      <div
+        class="sc-AxiKw gdDiKF"
+      >
+        <div
+          class="sc-AxhCb dNvbvJ"
+        >
+          <p
+            class="sc-AxmLO fmhwkM"
+          >
+            Continue With
+          </p>
+        </div>
+        <div
+          class="sc-AxhUy eBWnlu"
+        >
+          <button
+            class="sc-AxheI kCcFVP"
+          >
+            <img
+              alt="close"
+              class="sc-Axmtr xwXrz"
+              data-testid=""
+              src="close.svg"
+            />
+          </button>
+        </div>
+      </div>
+      <div
+        class="sc-AxgMl gDiEuY"
+      >
+        <p
+          class="sc-fzpans efksjk"
+        >
+          OR
+        </p>
+        <form
+          class="sc-fzplWN bDlKtQ"
+        >
+          <input
+            class="sc-fznyAO bXnrNn"
+            data-testid="id"
+            placeholder="e-mail"
+            type="text"
+          />
+          <span
+            class="sc-fznKkj TOSJF"
+            data-testid="userError"
+          >
+            Invalid E-mail Address!
+          </span>
+          <input
+            class="sc-fznyAO bXnrNn"
+            data-testid="password"
+            placeholder="password"
+            type="password"
+          />
+          <span
+            class="sc-fznKkj TOSJF"
+            data-testid="passError"
+          >
+            Please enter a password with 6 or more characters!
+          </span>
+          <button
+            class="sc-fznZeY eMLFed"
+            data-testid=""
+            type="submit"
+          >
+            Login
+          </button>
+          <button
+            class="sc-fzokOt iLJQxO"
+            data-testid="create"
+            type="submit"
+          >
+            Create
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Create account failure tests 5`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="sc-AxjAm dGAgku"
+      data-testid=""
+    />
+    <div
+      class="sc-AxirZ dwGSXK"
+    >
+      <div
+        class="sc-AxiKw gdDiKF"
+      >
+        <div
+          class="sc-AxhCb dNvbvJ"
+        >
+          <p
+            class="sc-AxmLO fmhwkM"
+          >
+            Continue With
+          </p>
+        </div>
+        <div
+          class="sc-AxhUy eBWnlu"
+        >
+          <button
+            class="sc-AxheI kCcFVP"
+          >
+            <img
+              alt="close"
+              class="sc-Axmtr xwXrz"
+              data-testid=""
+              src="close.svg"
+            />
+          </button>
+        </div>
+      </div>
+      <div
+        class="sc-AxgMl gDiEuY"
+      >
+        <p
+          class="sc-fzpans efksjk"
+        >
+          OR
+        </p>
+        <form
+          class="sc-fzplWN bDlKtQ"
+        >
+          <input
+            class="sc-fznyAO bXnrNn"
+            data-testid="id"
+            placeholder="e-mail"
+            type="text"
+          />
+          <span
+            class="sc-fznKkj TOSJF"
+            data-testid="userError"
+          >
+            Invalid E-mail Address!
+          </span>
+          <input
+            class="sc-fznyAO bXnrNn"
+            data-testid="password"
+            placeholder="password"
+            type="password"
+          />
+          <span
+            class="sc-fznKkj TOSJF"
+            data-testid="passError"
+          >
+            Please enter a password with 6 or more characters!
+          </span>
+          <button
+            class="sc-fznZeY eMLFed"
+            data-testid=""
+            type="submit"
+          >
+            Login
+          </button>
+          <button
+            class="sc-fzokOt iLJQxO"
+            data-testid="create"
+            type="submit"
+          >
+            Create
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Create account failure tests 6`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="sc-AxjAm dGAgku"
+      data-testid=""
+    />
+    <div
+      class="sc-AxirZ dwGSXK"
+    >
+      <div
+        class="sc-AxiKw gdDiKF"
+      >
+        <div
+          class="sc-AxhCb dNvbvJ"
+        >
+          <p
+            class="sc-AxmLO fmhwkM"
+          >
+            Continue With
+          </p>
+        </div>
+        <div
+          class="sc-AxhUy eBWnlu"
+        >
+          <button
+            class="sc-AxheI kCcFVP"
+          >
+            <img
+              alt="close"
+              class="sc-Axmtr xwXrz"
+              data-testid=""
+              src="close.svg"
+            />
+          </button>
+        </div>
+      </div>
+      <div
+        class="sc-AxgMl gDiEuY"
+      >
+        <p
+          class="sc-fzpans efksjk"
+        >
+          OR
+        </p>
+        <form
+          class="sc-fzplWN bDlKtQ"
+        >
+          <input
+            class="sc-fznyAO bXnrNn"
+            data-testid="id"
+            placeholder="e-mail"
+            type="text"
+          />
+          <span
+            class="sc-fznKkj TOSJF"
+            data-testid="userError"
+          >
+            Invalid E-mail Address!
+          </span>
+          <input
+            class="sc-fznyAO bXnrNn"
+            data-testid="password"
+            placeholder="password"
+            type="password"
+          />
+          <span
+            class="sc-fznKkj TOSJF"
+            data-testid="passError"
+          >
+            Please enter a password with 6 or more characters!
+          </span>
+          <button
+            class="sc-fznZeY eMLFed"
+            data-testid=""
+            type="submit"
+          >
+            Login
+          </button>
+          <button
+            class="sc-fzokOt iLJQxO"
+            data-testid="create"
+            type="submit"
+          >
+            Create
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Create account failure tests 7`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="sc-AxjAm dGAgku"
+      data-testid=""
+    />
+    <div
+      class="sc-AxirZ dwGSXK"
+    >
+      <div
+        class="sc-AxiKw gdDiKF"
+      >
+        <div
+          class="sc-AxhCb dNvbvJ"
+        >
+          <p
+            class="sc-AxmLO fmhwkM"
+          >
+            Continue With
+          </p>
+        </div>
+        <div
+          class="sc-AxhUy eBWnlu"
+        >
+          <button
+            class="sc-AxheI kCcFVP"
+          >
+            <img
+              alt="close"
+              class="sc-Axmtr xwXrz"
+              data-testid=""
+              src="close.svg"
+            />
+          </button>
+        </div>
+      </div>
+      <div
+        class="sc-AxgMl gDiEuY"
+      >
+        <p
+          class="sc-fzpans efksjk"
+        >
+          OR
+        </p>
+        <form
+          class="sc-fzplWN bDlKtQ"
+        >
+          <input
+            class="sc-fznyAO bXnrNn"
+            data-testid="id"
+            placeholder="e-mail"
+            type="text"
+          />
+          <input
+            class="sc-fznyAO bXnrNn"
+            data-testid="password"
+            placeholder="password"
+            type="password"
+          />
+          <span
+            class="sc-fznKkj TOSJF"
+            data-testid="response"
+          >
+            Connection failed
+          </span>
+          <button
+            class="sc-fznZeY eMLFed"
+            data-testid=""
+            type="submit"
+          >
+            Login
+          </button>
+          <button
+            class="sc-fzokOt iLJQxO"
+            data-testid="create"
+            type="submit"
+          >
+            Create
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Create account success test 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="sc-AxjAm dGAgku"
+      data-testid=""
+    />
+    <div
+      class="sc-AxirZ dwGSXK"
+    >
+      <div
+        class="sc-AxiKw gdDiKF"
+      >
+        <div
+          class="sc-AxhCb dNvbvJ"
+        >
+          <p
+            class="sc-AxmLO fmhwkM"
+          >
+            Continue With
+          </p>
+        </div>
+        <div
+          class="sc-AxhUy eBWnlu"
+        >
+          <button
+            class="sc-AxheI kCcFVP"
+          >
+            <img
+              alt="close"
+              class="sc-Axmtr xwXrz"
+              data-testid=""
+              src="close.svg"
+            />
+          </button>
+        </div>
+      </div>
+      <div
+        class="sc-AxgMl gDiEuY"
+      >
+        <p
+          class="sc-fzpans efksjk"
+        >
+          OR
+        </p>
+        <form
+          class="sc-fzplWN bDlKtQ"
+        >
+          <input
+            class="sc-fznyAO bXnrNn"
+            data-testid="id"
+            placeholder="e-mail"
+            type="text"
+          />
+          <input
+            class="sc-fznyAO bXnrNn"
+            data-testid="password"
+            placeholder="password"
+            type="password"
+          />
+          <button
+            class="sc-fznZeY eMLFed"
+            data-testid=""
+            type="submit"
+          >
+            Login
+          </button>
+          <button
+            class="sc-fzokOt iLJQxO"
+            data-testid="create"
+            type="submit"
+          >
+            Create
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Create account success test 2`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="sc-AxjAm dGAgku"
+      data-testid=""
+    />
+    <div
+      class="sc-AxirZ dwGSXK"
+    >
+      <div
+        class="sc-AxiKw gdDiKF"
+      >
+        <div
+          class="sc-AxhCb dNvbvJ"
+        >
+          <p
+            class="sc-AxmLO fmhwkM"
+          >
+            Continue With
+          </p>
+        </div>
+        <div
+          class="sc-AxhUy eBWnlu"
+        >
+          <button
+            class="sc-AxheI kCcFVP"
+          >
+            <img
+              alt="close"
+              class="sc-Axmtr xwXrz"
+              data-testid=""
+              src="close.svg"
+            />
+          </button>
+        </div>
+      </div>
+      <div
+        class="sc-AxgMl gDiEuY"
+      >
+        <p
+          class="sc-fzpans efksjk"
+        >
+          OR
+        </p>
+        <form
+          class="sc-fzplWN bDlKtQ"
+        >
+          <input
+            class="sc-fznyAO bXnrNn"
+            data-testid="id"
+            placeholder="e-mail"
+            type="text"
+          />
+          <input
+            class="sc-fznyAO bXnrNn"
+            data-testid="password"
+            placeholder="password"
+            type="password"
+          />
+          <button
+            class="sc-fznZeY eMLFed"
+            data-testid=""
+            type="submit"
+          >
+            Login
+          </button>
+          <button
+            class="sc-fzokOt iLJQxO"
+            data-testid="create"
+            type="submit"
+          >
+            Create
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Create account success test 3`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="sc-AxjAm dGAgku"
+      data-testid=""
+    />
+    <div
+      class="sc-AxirZ dwGSXK"
+    >
+      <div
+        class="sc-AxiKw gdDiKF"
+      >
+        <div
+          class="sc-AxhCb dNvbvJ"
+        >
+          <p
+            class="sc-AxmLO fmhwkM"
+          >
+            Continue With
+          </p>
+        </div>
+        <div
+          class="sc-AxhUy eBWnlu"
+        >
+          <button
+            class="sc-AxheI kCcFVP"
+          >
+            <img
+              alt="close"
+              class="sc-Axmtr xwXrz"
+              data-testid=""
+              src="close.svg"
+            />
+          </button>
+        </div>
+      </div>
+      <div
+        class="sc-AxgMl gDiEuY"
+      >
+        <p
+          class="sc-fzpans efksjk"
+        >
+          OR
+        </p>
+        <form
+          class="sc-fzplWN bDlKtQ"
+        >
+          <input
+            class="sc-fznyAO bXnrNn"
+            data-testid="id"
+            placeholder="e-mail"
+            type="text"
+          />
+          <input
+            class="sc-fznyAO bXnrNn"
+            data-testid="password"
+            placeholder="password"
+            type="password"
+          />
+          <button
+            class="sc-fznZeY eMLFed"
+            data-testid=""
+            type="submit"
+          >
+            Login
+          </button>
+          <button
+            class="sc-fzokOt iLJQxO"
+            data-testid="create"
+            type="submit"
+          >
+            Create
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Create account success test 4`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="sc-AxjAm dGAgku"
+      data-testid=""
+    />
+    <div
+      class="sc-AxirZ dwGSXK"
+    >
+      <div
+        class="sc-AxiKw gdDiKF"
+      >
+        <div
+          class="sc-AxhCb dNvbvJ"
+        >
+          <p
+            class="sc-AxmLO fmhwkM"
+          >
+            Continue With
+          </p>
+        </div>
+        <div
+          class="sc-AxhUy eBWnlu"
+        >
+          <button
+            class="sc-AxheI kCcFVP"
+          >
+            <img
+              alt="close"
+              class="sc-Axmtr xwXrz"
+              data-testid=""
+              src="close.svg"
+            />
+          </button>
+        </div>
+      </div>
+      <div
+        class="sc-AxgMl gDiEuY"
+      >
+        <p
+          class="sc-fzpans efksjk"
+        >
+          OR
+        </p>
+        <form
+          class="sc-fzplWN bDlKtQ"
+        >
+          <input
+            class="sc-fznyAO bXnrNn"
+            data-testid="id"
+            placeholder="e-mail"
+            type="text"
+          />
+          <input
+            class="sc-fznyAO bXnrNn"
+            data-testid="password"
+            placeholder="password"
+            type="password"
+          />
+          <button
+            class="sc-fznZeY eMLFed"
+            data-testid=""
+            type="submit"
+          >
+            Login
+          </button>
+          <button
+            class="sc-fzokOt iLJQxO"
+            data-testid="create"
+            type="submit"
+          >
+            Create
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Login failure tests 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="sc-AxjAm dGAgku"
+      data-testid=""
+    />
+    <div
+      class="sc-AxirZ dwGSXK"
+    >
+      <div
+        class="sc-AxiKw gdDiKF"
+      >
+        <div
+          class="sc-AxhCb dNvbvJ"
+        >
+          <p
+            class="sc-AxmLO fmhwkM"
+          >
+            Continue With
+          </p>
+        </div>
+        <div
+          class="sc-AxhUy eBWnlu"
+        >
+          <button
+            class="sc-AxheI kCcFVP"
+          >
+            <img
+              alt="close"
+              class="sc-Axmtr xwXrz"
+              data-testid=""
+              src="close.svg"
+            />
+          </button>
+        </div>
+      </div>
+      <div
+        class="sc-AxgMl gDiEuY"
+      >
+        <p
+          class="sc-fzpans efksjk"
+        >
+          OR
+        </p>
+        <form
+          class="sc-fzplWN bDlKtQ"
+        >
+          <input
+            class="sc-fznyAO bXnrNn"
+            data-testid="id"
+            placeholder="e-mail"
+            type="text"
+          />
+          <input
+            class="sc-fznyAO bXnrNn"
+            data-testid="password"
+            placeholder="password"
+            type="password"
+          />
+          <button
+            class="sc-fznZeY eMLFed"
+            data-testid="login"
+            type="submit"
+          >
+            Login
+          </button>
+          <button
+            class="sc-fzokOt iLJQxO"
+            data-testid=""
+            type="submit"
+          >
+            Create
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Login failure tests 2`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="sc-AxjAm dGAgku"
+      data-testid=""
+    />
+    <div
+      class="sc-AxirZ dwGSXK"
+    >
+      <div
+        class="sc-AxiKw gdDiKF"
+      >
+        <div
+          class="sc-AxhCb dNvbvJ"
+        >
+          <p
+            class="sc-AxmLO fmhwkM"
+          >
+            Continue With
+          </p>
+        </div>
+        <div
+          class="sc-AxhUy eBWnlu"
+        >
+          <button
+            class="sc-AxheI kCcFVP"
+          >
+            <img
+              alt="close"
+              class="sc-Axmtr xwXrz"
+              data-testid=""
+              src="close.svg"
+            />
+          </button>
+        </div>
+      </div>
+      <div
+        class="sc-AxgMl gDiEuY"
+      >
+        <p
+          class="sc-fzpans efksjk"
+        >
+          OR
+        </p>
+        <form
+          class="sc-fzplWN bDlKtQ"
+        >
+          <input
+            class="sc-fznyAO bXnrNn"
+            data-testid="id"
+            placeholder="e-mail"
+            type="text"
+          />
+          <span
+            class="sc-fznKkj TOSJF"
+            data-testid="userError"
+          >
+            E-mail is empty!
+          </span>
+          <input
+            class="sc-fznyAO bXnrNn"
+            data-testid="password"
+            placeholder="password"
+            type="password"
+          />
+          <span
+            class="sc-fznKkj TOSJF"
+            data-testid="passError"
+          >
+            Invalid Password!
+          </span>
+          <button
+            class="sc-fznZeY eMLFed"
+            data-testid="login"
+            type="submit"
+          >
+            Login
+          </button>
+          <button
+            class="sc-fzokOt iLJQxO"
+            data-testid=""
+            type="submit"
+          >
+            Create
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Login failure tests 3`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="sc-AxjAm dGAgku"
+      data-testid=""
+    />
+    <div
+      class="sc-AxirZ dwGSXK"
+    >
+      <div
+        class="sc-AxiKw gdDiKF"
+      >
+        <div
+          class="sc-AxhCb dNvbvJ"
+        >
+          <p
+            class="sc-AxmLO fmhwkM"
+          >
+            Continue With
+          </p>
+        </div>
+        <div
+          class="sc-AxhUy eBWnlu"
+        >
+          <button
+            class="sc-AxheI kCcFVP"
+          >
+            <img
+              alt="close"
+              class="sc-Axmtr xwXrz"
+              data-testid=""
+              src="close.svg"
+            />
+          </button>
+        </div>
+      </div>
+      <div
+        class="sc-AxgMl gDiEuY"
+      >
+        <p
+          class="sc-fzpans efksjk"
+        >
+          OR
+        </p>
+        <form
+          class="sc-fzplWN bDlKtQ"
+        >
+          <input
+            class="sc-fznyAO bXnrNn"
+            data-testid="id"
+            placeholder="e-mail"
+            type="text"
+          />
+          <span
+            class="sc-fznKkj TOSJF"
+            data-testid="userError"
+          >
+            E-mail is empty!
+          </span>
+          <input
+            class="sc-fznyAO bXnrNn"
+            data-testid="password"
+            placeholder="password"
+            type="password"
+          />
+          <span
+            class="sc-fznKkj TOSJF"
+            data-testid="passError"
+          >
+            Invalid Password!
+          </span>
+          <button
+            class="sc-fznZeY eMLFed"
+            data-testid="login"
+            type="submit"
+          >
+            Login
+          </button>
+          <button
+            class="sc-fzokOt iLJQxO"
+            data-testid=""
+            type="submit"
+          >
+            Create
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Login failure tests 4`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="sc-AxjAm dGAgku"
+      data-testid=""
+    />
+    <div
+      class="sc-AxirZ dwGSXK"
+    >
+      <div
+        class="sc-AxiKw gdDiKF"
+      >
+        <div
+          class="sc-AxhCb dNvbvJ"
+        >
+          <p
+            class="sc-AxmLO fmhwkM"
+          >
+            Continue With
+          </p>
+        </div>
+        <div
+          class="sc-AxhUy eBWnlu"
+        >
+          <button
+            class="sc-AxheI kCcFVP"
+          >
+            <img
+              alt="close"
+              class="sc-Axmtr xwXrz"
+              data-testid=""
+              src="close.svg"
+            />
+          </button>
+        </div>
+      </div>
+      <div
+        class="sc-AxgMl gDiEuY"
+      >
+        <p
+          class="sc-fzpans efksjk"
+        >
+          OR
+        </p>
+        <form
+          class="sc-fzplWN bDlKtQ"
+        >
+          <input
+            class="sc-fznyAO bXnrNn"
+            data-testid="id"
+            placeholder="e-mail"
+            type="text"
+          />
+          <span
+            class="sc-fznKkj TOSJF"
+            data-testid="userError"
+          >
+            Invalid E-mail Address!
+          </span>
+          <input
+            class="sc-fznyAO bXnrNn"
+            data-testid="password"
+            placeholder="password"
+            type="password"
+          />
+          <span
+            class="sc-fznKkj TOSJF"
+            data-testid="passError"
+          >
+            Invalid Password!
+          </span>
+          <button
+            class="sc-fznZeY eMLFed"
+            data-testid="login"
+            type="submit"
+          >
+            Login
+          </button>
+          <button
+            class="sc-fzokOt iLJQxO"
+            data-testid=""
+            type="submit"
+          >
+            Create
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Login failure tests 5`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="sc-AxjAm dGAgku"
+      data-testid=""
+    />
+    <div
+      class="sc-AxirZ dwGSXK"
+    >
+      <div
+        class="sc-AxiKw gdDiKF"
+      >
+        <div
+          class="sc-AxhCb dNvbvJ"
+        >
+          <p
+            class="sc-AxmLO fmhwkM"
+          >
+            Continue With
+          </p>
+        </div>
+        <div
+          class="sc-AxhUy eBWnlu"
+        >
+          <button
+            class="sc-AxheI kCcFVP"
+          >
+            <img
+              alt="close"
+              class="sc-Axmtr xwXrz"
+              data-testid=""
+              src="close.svg"
+            />
+          </button>
+        </div>
+      </div>
+      <div
+        class="sc-AxgMl gDiEuY"
+      >
+        <p
+          class="sc-fzpans efksjk"
+        >
+          OR
+        </p>
+        <form
+          class="sc-fzplWN bDlKtQ"
+        >
+          <input
+            class="sc-fznyAO bXnrNn"
+            data-testid="id"
+            placeholder="e-mail"
+            type="text"
+          />
+          <span
+            class="sc-fznKkj TOSJF"
+            data-testid="userError"
+          >
+            Invalid E-mail Address!
+          </span>
+          <input
+            class="sc-fznyAO bXnrNn"
+            data-testid="password"
+            placeholder="password"
+            type="password"
+          />
+          <span
+            class="sc-fznKkj TOSJF"
+            data-testid="passError"
+          >
+            Invalid Password!
+          </span>
+          <button
+            class="sc-fznZeY eMLFed"
+            data-testid="login"
+            type="submit"
+          >
+            Login
+          </button>
+          <button
+            class="sc-fzokOt iLJQxO"
+            data-testid=""
+            type="submit"
+          >
+            Create
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Login failure tests 6`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="sc-AxjAm dGAgku"
+      data-testid=""
+    />
+    <div
+      class="sc-AxirZ dwGSXK"
+    >
+      <div
+        class="sc-AxiKw gdDiKF"
+      >
+        <div
+          class="sc-AxhCb dNvbvJ"
+        >
+          <p
+            class="sc-AxmLO fmhwkM"
+          >
+            Continue With
+          </p>
+        </div>
+        <div
+          class="sc-AxhUy eBWnlu"
+        >
+          <button
+            class="sc-AxheI kCcFVP"
+          >
+            <img
+              alt="close"
+              class="sc-Axmtr xwXrz"
+              data-testid=""
+              src="close.svg"
+            />
+          </button>
+        </div>
+      </div>
+      <div
+        class="sc-AxgMl gDiEuY"
+      >
+        <p
+          class="sc-fzpans efksjk"
+        >
+          OR
+        </p>
+        <form
+          class="sc-fzplWN bDlKtQ"
+        >
+          <input
+            class="sc-fznyAO bXnrNn"
+            data-testid="id"
+            placeholder="e-mail"
+            type="text"
+          />
+          <span
+            class="sc-fznKkj TOSJF"
+            data-testid="userError"
+          >
+            Invalid E-mail Address!
+          </span>
+          <input
+            class="sc-fznyAO bXnrNn"
+            data-testid="password"
+            placeholder="password"
+            type="password"
+          />
+          <span
+            class="sc-fznKkj TOSJF"
+            data-testid="passError"
+          >
+            Invalid Password!
+          </span>
+          <button
+            class="sc-fznZeY eMLFed"
+            data-testid="login"
+            type="submit"
+          >
+            Login
+          </button>
+          <button
+            class="sc-fzokOt iLJQxO"
+            data-testid=""
+            type="submit"
+          >
+            Create
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Login failure tests 7`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="sc-AxjAm dGAgku"
+      data-testid=""
+    />
+    <div
+      class="sc-AxirZ dwGSXK"
+    >
+      <div
+        class="sc-AxiKw gdDiKF"
+      >
+        <div
+          class="sc-AxhCb dNvbvJ"
+        >
+          <p
+            class="sc-AxmLO fmhwkM"
+          >
+            Continue With
+          </p>
+        </div>
+        <div
+          class="sc-AxhUy eBWnlu"
+        >
+          <button
+            class="sc-AxheI kCcFVP"
+          >
+            <img
+              alt="close"
+              class="sc-Axmtr xwXrz"
+              data-testid=""
+              src="close.svg"
+            />
+          </button>
+        </div>
+      </div>
+      <div
+        class="sc-AxgMl gDiEuY"
+      >
+        <p
+          class="sc-fzpans efksjk"
+        >
+          OR
+        </p>
+        <form
+          class="sc-fzplWN bDlKtQ"
+        >
+          <input
+            class="sc-fznyAO bXnrNn"
+            data-testid="id"
+            placeholder="e-mail"
+            type="text"
+          />
+          <input
+            class="sc-fznyAO bXnrNn"
+            data-testid="password"
+            placeholder="password"
+            type="password"
+          />
+          <span
+            class="sc-fznKkj TOSJF"
+            data-testid="response"
+          >
+            Connection failed
+          </span>
+          <button
+            class="sc-fznZeY eMLFed"
+            data-testid="login"
+            type="submit"
+          >
+            Login
+          </button>
+          <button
+            class="sc-fzokOt iLJQxO"
+            data-testid=""
+            type="submit"
+          >
+            Create
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Login success test 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="sc-AxjAm dGAgku"
+      data-testid=""
+    />
+    <div
+      class="sc-AxirZ dwGSXK"
+    >
+      <div
+        class="sc-AxiKw gdDiKF"
+      >
+        <div
+          class="sc-AxhCb dNvbvJ"
+        >
+          <p
+            class="sc-AxmLO fmhwkM"
+          >
+            Continue With
+          </p>
+        </div>
+        <div
+          class="sc-AxhUy eBWnlu"
+        >
+          <button
+            class="sc-AxheI kCcFVP"
+          >
+            <img
+              alt="close"
+              class="sc-Axmtr xwXrz"
+              data-testid=""
+              src="close.svg"
+            />
+          </button>
+        </div>
+      </div>
+      <div
+        class="sc-AxgMl gDiEuY"
+      >
+        <p
+          class="sc-fzpans efksjk"
+        >
+          OR
+        </p>
+        <form
+          class="sc-fzplWN bDlKtQ"
+        >
+          <input
+            class="sc-fznyAO bXnrNn"
+            data-testid="id"
+            placeholder="e-mail"
+            type="text"
+          />
+          <input
+            class="sc-fznyAO bXnrNn"
+            data-testid="password"
+            placeholder="password"
+            type="password"
+          />
+          <button
+            class="sc-fznZeY eMLFed"
+            data-testid="login"
+            type="submit"
+          >
+            Login
+          </button>
+          <button
+            class="sc-fzokOt iLJQxO"
+            data-testid=""
+            type="submit"
+          >
+            Create
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Login success test 2`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="sc-AxjAm dGAgku"
+      data-testid=""
+    />
+    <div
+      class="sc-AxirZ dwGSXK"
+    >
+      <div
+        class="sc-AxiKw gdDiKF"
+      >
+        <div
+          class="sc-AxhCb dNvbvJ"
+        >
+          <p
+            class="sc-AxmLO fmhwkM"
+          >
+            Continue With
+          </p>
+        </div>
+        <div
+          class="sc-AxhUy eBWnlu"
+        >
+          <button
+            class="sc-AxheI kCcFVP"
+          >
+            <img
+              alt="close"
+              class="sc-Axmtr xwXrz"
+              data-testid=""
+              src="close.svg"
+            />
+          </button>
+        </div>
+      </div>
+      <div
+        class="sc-AxgMl gDiEuY"
+      >
+        <p
+          class="sc-fzpans efksjk"
+        >
+          OR
+        </p>
+        <form
+          class="sc-fzplWN bDlKtQ"
+        >
+          <input
+            class="sc-fznyAO bXnrNn"
+            data-testid="id"
+            placeholder="e-mail"
+            type="text"
+          />
+          <input
+            class="sc-fznyAO bXnrNn"
+            data-testid="password"
+            placeholder="password"
+            type="password"
+          />
+          <button
+            class="sc-fznZeY eMLFed"
+            data-testid="login"
+            type="submit"
+          >
+            Login
+          </button>
+          <button
+            class="sc-fzokOt iLJQxO"
+            data-testid=""
+            type="submit"
+          >
+            Create
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Login success test 3`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="sc-AxjAm dGAgku"
+      data-testid=""
+    />
+    <div
+      class="sc-AxirZ dwGSXK"
+    >
+      <div
+        class="sc-AxiKw gdDiKF"
+      >
+        <div
+          class="sc-AxhCb dNvbvJ"
+        >
+          <p
+            class="sc-AxmLO fmhwkM"
+          >
+            Continue With
+          </p>
+        </div>
+        <div
+          class="sc-AxhUy eBWnlu"
+        >
+          <button
+            class="sc-AxheI kCcFVP"
+          >
+            <img
+              alt="close"
+              class="sc-Axmtr xwXrz"
+              data-testid=""
+              src="close.svg"
+            />
+          </button>
+        </div>
+      </div>
+      <div
+        class="sc-AxgMl gDiEuY"
+      >
+        <p
+          class="sc-fzpans efksjk"
+        >
+          OR
+        </p>
+        <form
+          class="sc-fzplWN bDlKtQ"
+        >
+          <input
+            class="sc-fznyAO bXnrNn"
+            data-testid="id"
+            placeholder="e-mail"
+            type="text"
+          />
+          <input
+            class="sc-fznyAO bXnrNn"
+            data-testid="password"
+            placeholder="password"
+            type="password"
+          />
+          <button
+            class="sc-fznZeY eMLFed"
+            data-testid="login"
+            type="submit"
+          >
+            Login
+          </button>
+          <button
+            class="sc-fzokOt iLJQxO"
+            data-testid=""
+            type="submit"
+          >
+            Create
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Login success test 4`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="sc-AxjAm dGAgku"
+      data-testid=""
+    />
+    <div
+      class="sc-AxirZ dwGSXK"
+    >
+      <div
+        class="sc-AxiKw gdDiKF"
+      >
+        <div
+          class="sc-AxhCb dNvbvJ"
+        >
+          <p
+            class="sc-AxmLO fmhwkM"
+          >
+            Continue With
+          </p>
+        </div>
+        <div
+          class="sc-AxhUy eBWnlu"
+        >
+          <button
+            class="sc-AxheI kCcFVP"
+          >
+            <img
+              alt="close"
+              class="sc-Axmtr xwXrz"
+              data-testid=""
+              src="close.svg"
+            />
+          </button>
+        </div>
+      </div>
+      <div
+        class="sc-AxgMl gDiEuY"
+      >
+        <p
+          class="sc-fzpans efksjk"
+        >
+          OR
+        </p>
+        <form
+          class="sc-fzplWN bDlKtQ"
+        >
+          <input
+            class="sc-fznyAO bXnrNn"
+            data-testid="id"
+            placeholder="e-mail"
+            type="text"
+          />
+          <input
+            class="sc-fznyAO bXnrNn"
+            data-testid="password"
+            placeholder="password"
+            type="password"
+          />
+          <button
+            class="sc-fznZeY eMLFed"
+            data-testid="login"
+            type="submit"
+          >
+            Login
+          </button>
+          <button
+            class="sc-fzokOt iLJQxO"
+            data-testid=""
+            type="submit"
+          >
+            Create
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

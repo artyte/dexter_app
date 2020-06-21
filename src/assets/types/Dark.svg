@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72" height="72" viewBox="0 0 72 72">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="0.987" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#595761"/>
+      <stop offset="1" stop-color="#6e7587"/>
+    </linearGradient>
+    <filter id="Background" x="0" y="0" width="72" height="72" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-color="#5d596a"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Dark" transform="translate(4.622 4.517)">
+    <g transform="matrix(1, 0, 0, 1, -4.62, -4.52)" filter="url(#Background)">
+      <rect id="Background-2" data-name="Background" width="63" height="63" rx="31.5" transform="translate(4.5 4.5)" fill="url(#linear-gradient)"/>
+    </g>
+    <path id="Icon" d="M14.736,29.471A14.736,14.736,0,1,1,17.759.311a13.152,13.152,0,0,0-8.813,12.32,13.247,13.247,0,0,0,13.362,13.1A13.744,13.744,0,0,0,24.8,25.5,14.682,14.682,0,0,1,14.736,29.471Z" transform="translate(18.945 16.84)" fill="#fff"/>
+  </g>
+</svg>

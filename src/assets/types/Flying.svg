@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72" height="72" viewBox="0 0 72 72">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#90a7da"/>
+      <stop offset="1" stop-color="#a6c2f2"/>
+    </linearGradient>
+    <filter id="Background" x="0" y="0" width="72" height="72" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-color="#9db5e4" flood-opacity="0.702"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Flying" transform="translate(4.714 4.517)">
+    <g transform="matrix(1, 0, 0, 1, -4.71, -4.52)" filter="url(#Background)">
+      <rect id="Background-2" data-name="Background" width="63" height="63" rx="31.5" transform="translate(4.5 4.5)" fill="url(#linear-gradient)"/>
+    </g>
+    <path id="Icon" d="M11.021,27.366a11.079,11.079,0,0,0,10.22-6.215c.02-.044-6.564,1.711-6.354,1.09.094-.277,4.129-1.751,7.07-3.471a6.684,6.684,0,0,0,2.468-3.081,31.407,31.407,0,0,1-4.287,1.733,17.5,17.5,0,0,1-5.454.557,45.782,45.782,0,0,0,10.132-4.556,8.376,8.376,0,0,0,3.524-4.6,33.2,33.2,0,0,1-4.889,2.414C19.085,12.661,15.1,13.089,15.1,12.9c0-.412,3.508-1.376,7.228-3.179A40.668,40.668,0,0,0,27.876,6.2a9.856,9.856,0,0,0,3.7-6.2,49.892,49.892,0,0,1-4.661,2.691A52.04,52.04,0,0,1,11.021,7.226C4.959,7.7,0,11.931,0,17.422S4.934,27.366,11.021,27.366Z" transform="translate(16.84 18.945)" fill="#fff"/>
+  </g>
+</svg>

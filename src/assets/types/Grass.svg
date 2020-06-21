@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72" height="72" viewBox="0 0 72 72">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#5fbc51"/>
+      <stop offset="1" stop-color="#5ac178"/>
+    </linearGradient>
+    <filter id="Background" x="0" y="0" width="72" height="72" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-color="#64b954" flood-opacity="0.702"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grass" transform="translate(4.622 4.685)">
+    <g transform="matrix(1, 0, 0, 1, -4.62, -4.68)" filter="url(#Background)">
+      <rect id="Background-2" data-name="Background" width="63" height="63" rx="31.5" transform="translate(4.5 4.5)" fill="url(#linear-gradient)"/>
+    </g>
+    <path id="Icon" d="M12.885,31.576A12.9,12.9,0,0,1,0,18.692c0-3.676,3.018-8.562,5.549-12.014A74.752,74.752,0,0,1,11.1,0a.157.157,0,0,1,.031.022,86.3,86.3,0,0,1,7.305,6.655c3.346,3.452,7.336,8.338,7.336,12.014A12.873,12.873,0,0,1,15.217,31.366l-.65-6.371,3.584-5.56-4.105,3.359L14,18.006l2.109-3.291-2.768,1.5-1.716-5.987L12,16.674,9.17,16.193l3.145,2.319.269,4.5-4-2.037L12.6,24.987l.688,6.583-.046,0C13.124,31.575,13,31.576,12.885,31.576Z" transform="translate(18.945 16.84)" fill="#fff"/>
+  </g>
+</svg>

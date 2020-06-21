@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72" height="72" viewBox="0 0 72 72">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#beac60"/>
+      <stop offset="1" stop-color="#d1c17d"/>
+    </linearGradient>
+    <filter id="Background" x="0" y="0" width="72" height="72" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-color="#cbc194"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Rock" transform="translate(4.441 4.349)">
+    <g transform="matrix(1, 0, 0, 1, -4.44, -4.35)" filter="url(#Background)">
+      <rect id="Background-2" data-name="Background" width="63" height="63" rx="31.5" transform="translate(4.5 4.5)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Icon" transform="translate(17.262 17.58)">
+      <path id="Path_40" data-name="Path 40" d="M-303.065-145.383h7.585l-4.049-7.508Z" transform="translate(303.08 152.891)" fill="#fff"/>
+      <path id="Path_41" data-name="Path 41" d="M-273.147-145.765l3.277,6.9,3.771-6.9Z" transform="translate(278.933 145.777)" fill="#fff"/>
+      <path id="Path_42" data-name="Path 42" d="M-232.722-143.634l4.559-7.531,3.912,7.531Z" transform="translate(243.193 151.167)" fill="#fff"/>
+      <path id="Path_43" data-name="Path 43" d="M-202.051-145.765l3.207,7.229,3.9-7.229Z" transform="translate(219.273 145.777)" fill="#fff"/>
+      <path id="Path_44" data-name="Path 44" d="M-163.38-150.731l-4.11,7.424h7.348Z" transform="translate(189.304 150.824)" fill="#fff"/>
+      <path id="Path_45" data-name="Path 45" d="M-241.487-90.813l4.567,19.775,4-19.775Z" transform="translate(251.876 99.817)" fill="#fff"/>
+      <path id="Path_46" data-name="Path 46" d="M-296.381-91.571h8.367l4.96,19.625Z" transform="translate(296.381 100.574)" fill="#fff"/>
+      <path id="Path_47" data-name="Path 47" d="M-198.111-89.678h8.408l-12.512,19.62Z" transform="translate(218.905 98.681)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
