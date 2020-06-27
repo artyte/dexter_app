@@ -22,15 +22,19 @@ exports[`Render navbar with blur in pc page 1`] = `
     <li
       class="sc-AxirZ fJJekH"
     >
-      <button
-        class="sc-AxjAm dkMHIj"
+      <a
         data-testid="switchBox"
+        href="/team"
       >
-        <img
-          alt="pc"
-          src="pc.svg"
-        />
-      </button>
+        <button
+          class="sc-AxjAm dkMHIj"
+        >
+          <img
+            alt="pc"
+            src="pc.svg"
+          />
+        </button>
+      </a>
     </li>
     <li
       class="sc-AxirZ fJJekH"
@@ -84,15 +88,19 @@ exports[`Render navbar with blur in pc page 2`] = `
     <li
       class="sc-AxirZ fJJekH"
     >
-      <button
-        class="sc-AxjAm dkMHIj"
+      <a
         data-testid="switchBox"
+        href="/team"
       >
-        <img
-          alt="pc"
-          src="pc.svg"
-        />
-      </button>
+        <button
+          class="sc-AxjAm dkMHIj"
+        >
+          <img
+            alt="pc"
+            src="pc.svg"
+          />
+        </button>
+      </a>
     </li>
     <li
       class="sc-AxirZ fJJekH"
@@ -146,15 +154,19 @@ exports[`Render navbar with blur in team page 1`] = `
     <li
       class="sc-AxirZ fJJekH"
     >
-      <button
-        class="sc-AxjAm dkMHIj"
+      <a
         data-testid=""
+        href="/pc"
       >
-        <img
-          alt="team"
-          src="team.svg"
-        />
-      </button>
+        <button
+          class="sc-AxjAm dkMHIj"
+        >
+          <img
+            alt="team"
+            src="team.svg"
+          />
+        </button>
+      </a>
     </li>
     <li
       class="sc-AxirZ fJJekH"
@@ -208,15 +220,19 @@ exports[`Render navbar with blur in team page 2`] = `
     <li
       class="sc-AxirZ fJJekH"
     >
-      <button
-        class="sc-AxjAm dkMHIj"
+      <a
         data-testid=""
+        href="/pc"
       >
-        <img
-          alt="team"
-          src="team.svg"
-        />
-      </button>
+        <button
+          class="sc-AxjAm dkMHIj"
+        >
+          <img
+            alt="team"
+            src="team.svg"
+          />
+        </button>
+      </a>
     </li>
     <li
       class="sc-AxirZ fJJekH"
@@ -270,15 +286,19 @@ exports[`Render navbar without blur 1`] = `
     <li
       class="sc-AxirZ fJJekH"
     >
-      <button
-        class="sc-AxjAm dkMHIj"
+      <a
         data-testid="switchBox"
+        href="/pc"
       >
-        <img
-          alt="team"
-          src="team.svg"
-        />
-      </button>
+        <button
+          class="sc-AxjAm dkMHIj"
+        >
+          <img
+            alt="team"
+            src="team.svg"
+          />
+        </button>
+      </a>
     </li>
     <li
       class="sc-AxirZ fJJekH"
@@ -332,15 +352,19 @@ exports[`Render navbar without blur 2`] = `
     <li
       class="sc-AxirZ fJJekH"
     >
-      <button
-        class="sc-AxjAm dkMHIj"
+      <a
         data-testid="switchBox"
+        href="/team"
       >
-        <img
-          alt="pc"
-          src="pc.svg"
-        />
-      </button>
+        <button
+          class="sc-AxjAm dkMHIj"
+        >
+          <img
+            alt="pc"
+            src="pc.svg"
+          />
+        </button>
+      </a>
     </li>
     <li
       class="sc-AxirZ fJJekH"

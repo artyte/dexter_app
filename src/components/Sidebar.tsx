@@ -1,4 +1,5 @@
 import React, { memo, useContext, useState, useCallback } from 'react'
+import { Link } from 'react-router-dom'
 import profile from '../assets/user.svg'
 import pc from '../assets/pc.svg'
 import team from '../assets/team.svg'
@@ -10,7 +11,6 @@ import { Nav, Button, TopIcons, BottomIcons } from '../styles/Sidebar'
 
 /**
  * @param blur: The state of whether to blur this page so that window popups can happen.
- * @param toggleBox: Toggles between team page and teams (otherwise known as PC) page.
  * @param toggleProfile: Toggles the popup for the user profile's page.
  * @param togglePort: Toggles the popup for the import/export page.
  * @param toggleLogin: Toggles the popup for the login page.
@@ -19,7 +19,6 @@ import { Nav, Button, TopIcons, BottomIcons } from '../styles/Sidebar'
  */
 type props = {
   blur: boolean
-  toggleBox: () => void
   toggleProfile: () => void
   togglePort: () => void
   toggleLogin: () => void
@@ -36,7 +35,6 @@ type props = {
  */
 const Sidebar = ({
   blur,
-  toggleBox,
   toggleProfile,
   togglePort,
   toggleLogin,
@@ -48,6 +46,7 @@ const Sidebar = ({
 }: props) => {
   const { token } = useContext(UserContext)
 
+  const [boxUrl, setBoxUrl] = useState('pc')
   const [boxAlt, setBoxAlt] = useState('team')
   const [boxSrc, setBoxSrc] = useState(team)
 
@@ -63,21 +62,24 @@ const Sidebar = ({
   /** Toggles between the icon of team or teams (otherwise known as pc) page. */
   const changeTeam = useCallback(() => {
     if (boxAlt === 'team') {
-      setBoxAlt('pc')
+      setBoxUrl('team')
       setBoxSrc(pc)
+      setBoxAlt('pc')
     } else if (boxAlt === 'pc') {
-      setBoxAlt('team')
+      setBoxUrl('pc')
       setBoxSrc(team)
+      setBoxAlt('team')
     }
-    toggleBox()
-  }, [boxAlt, toggleBox])
+  }, [boxAlt])
 
   /** Returns the clickable team/pc icon. */
   const makeBox = () => (
     <TopIcons>
-      <Button onClick={changeTeam} data-testid={testSwitchBox ?? ''}>
-        <img src={boxSrc} alt={boxAlt} />
-      </Button>
+      <Link to={boxUrl} onClick={changeTeam} data-testid={testSwitchBox ?? ''}>
+        <Button>
+          <img src={boxSrc} alt={boxAlt} />
+        </Button>
+      </Link>
     </TopIcons>
   )
 

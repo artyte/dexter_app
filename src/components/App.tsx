@@ -1,5 +1,6 @@
 import React, { useState, useCallback } from 'react'
 import { useAsync } from 'react-async-hook'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import cache from 'localforage'
 import { Application, SidebarArea, DashboardArea } from '../styles/App'
 import Profile from './Profile'
@@ -21,8 +22,6 @@ const App = () => {
   const [user, setUser] = useState('')
   const [popup, setPopup] = useState({
     profile: false,
-    team: true,
-    pc: false,
     port: false,
     login: false,
   })
@@ -61,13 +60,13 @@ const App = () => {
   /**
    * Toggles between team page and teams (otherwise known as PC) page.
    */
-  const toggleBox = useCallback(() => {
-    setPopup({
-      ...popup,
-      team: !popup.team,
-      pc: !popup.pc,
-    })
-  }, [popup])
+  // const toggleBox = useCallback(() => {
+  //   setPopup({
+  //     ...popup,
+  //     team: !popup.team,
+  //     pc: !popup.pc,
+  //   })
+  // }, [])
 
   /**
    * Toggles the popup for the import/export page.
@@ -143,7 +142,6 @@ const App = () => {
       toggleProfile={toggleProfile}
       togglePort={togglePort}
       toggleLogin={toggleLogin}
-      toggleBox={toggleBox}
       blur={blur}
     />
   )
@@ -151,8 +149,14 @@ const App = () => {
   /** Returns the dashboard contents. */
   const makeDashboard = () => (
     <>
-      <Team popup={popup.team} blur={blur} />
-      <PC popup={popup.pc} blur={blur} />
+      <Switch>
+        <Route path={['/', '/team']} exact>
+          <Team blur={blur} />
+        </Route>
+        <Route path='/pc'>
+          <PC blur={blur} />
+        </Route>
+      </Switch>
       <Profile toggleProfile={toggleProfile} popup={popup.profile} />
       <Port togglePort={togglePort} popup={popup.port} />
       <Login
@@ -171,8 +175,10 @@ const App = () => {
   return (
     <UserContext.Provider value={sharedAppValues}>
       <Application>
-        <SidebarArea>{makeSidebar()}</SidebarArea>
-        <DashboardArea>{makeDashboard()}</DashboardArea>
+        <Router>
+          <SidebarArea>{makeSidebar()}</SidebarArea>
+          <DashboardArea>{makeDashboard()}</DashboardArea>
+        </Router>
       </Application>
     </UserContext.Provider>
   )

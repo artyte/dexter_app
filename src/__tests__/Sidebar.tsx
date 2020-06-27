@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { BrowserRouter as Router } from 'react-router-dom'
 import { render, cleanup, fireEvent } from '@testing-library/react'
 import { toHaveStyle } from '@testing-library/jest-dom/matchers'
 import Sidebar from '../components/Sidebar'
@@ -18,17 +19,16 @@ describe('Render navbar', () => {
         const [blur, setBlur] = useState(false)
 
         return (
-          <>
+          <Router>
             <Sidebar
               togglePort={empty}
               toggleLogin={empty}
-              toggleBox={empty}
               toggleProfile={jest.fn(() => setBlur(!blur))}
               blur={blur}
               testNavBar={testNavId}
               testToggleProfile={testToggleProfileId}
             />
-          </>
+          </Router>
         )
       }
       const { getByTestId, asFragment } = render(
@@ -52,18 +52,17 @@ describe('Render navbar', () => {
         const [blur, setBlur] = useState(false)
 
         return (
-          <>
+          <Router>
             <Sidebar
               togglePort={empty}
               toggleLogin={empty}
-              toggleBox={empty}
               toggleProfile={jest.fn(() => setBlur(!blur))}
               blur={blur}
               testNavBar={testNavId}
               testToggleProfile={testToggleProfileId}
               testSwitchBox={testSwitchBoxId}
             />
-          </>
+          </Router>
         )
       }
       const { getByTestId, asFragment } = render(<SidebarWrapper />)
@@ -83,15 +82,16 @@ describe('Render navbar', () => {
     const testNavId = 'navBar'
     const testSwitchBoxId = 'switchBox'
     const { getByTestId, asFragment } = render(
-      <Sidebar
-        toggleProfile={empty}
-        togglePort={empty}
-        toggleLogin={empty}
-        toggleBox={empty}
-        blur={false}
-        testNavBar={testNavId}
-        testSwitchBox={testSwitchBoxId}
-      />
+      <Router>
+        <Sidebar
+          toggleProfile={empty}
+          togglePort={empty}
+          toggleLogin={empty}
+          blur={false}
+          testNavBar={testNavId}
+          testSwitchBox={testSwitchBoxId}
+        />
+      </Router>
     )
     expect(asFragment()).toMatchSnapshot()
     expect(getByTestId(testNavId)).toHaveStyle('filter: blur(0px);')
