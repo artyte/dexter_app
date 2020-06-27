@@ -1,11 +1,10 @@
 import React from 'react'
 
 /**
- * @param popup: The state of whether to enable viewing this page.
+//  * @param popup: The state of whether to enable viewing this page.
  * @param blur: The state of whether to blur this page so that window popups can happen.
  */
 type props = {
-  popup: boolean
   blur: boolean
 }
 /**
@@ -13,11 +12,10 @@ type props = {
  *
  * @type props: Refer to the type props
  */
-const PC = ({ popup, blur }: props) => {
+const PC = ({ blur }: props) => {
   return (
     <div
       style={{
-        display: popup ? 'block' : 'none',
         filter: blur ? 'blur(5px)' : 'blur(0px)',
       }}
     >

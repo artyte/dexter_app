@@ -1,5 +1,6 @@
 import React, { memo, useState } from 'react'
 import { useAsync } from 'react-async-hook'
+import shortid from 'shortid'
 import cache from 'localforage'
 import {
   Dashboard,
@@ -96,7 +97,7 @@ const makePie = (fillProportions: fillProportions, fillColor: string) => {
         }`
 
         return (
-          <AttributeTexture width='100' height='100' key={attribute[2]}>
+          <AttributeTexture width='100' height='100' key={shortid.generate()}>
             <Background
               r='25'
               cx='50'
@@ -119,7 +120,7 @@ const makePie = (fillProportions: fillProportions, fillColor: string) => {
         const AttributeLabel = attribute[0]
         const label = attribute[1]
 
-        return <AttributeLabel key={label}>{label}</AttributeLabel>
+        return <AttributeLabel key={shortid.generate()}>{label}</AttributeLabel>
       })}
     </MonsterAttributes>
   )
@@ -153,7 +154,7 @@ const makeMonsters = (monsters: monsterAttributes[]) => {
 
         if (monster.name) {
           return (
-            <MonsterCard key={monster.name}>
+            <MonsterCard key={shortid.generate()}>
               <MoveSet>
                 <MoveName>{monster.moveOne ?? ''}</MoveName>
                 <MoveName>{monster.moveTwo ?? ''}</MoveName>
@@ -197,7 +198,7 @@ const makeMonsters = (monsters: monsterAttributes[]) => {
             </MonsterCard>
           )
         }
-        return <EmptyCard key={`monster${index}`}>+</EmptyCard>
+        return <EmptyCard key={shortid.generate()}>+</EmptyCard>
       })}
     </>
   )
@@ -205,11 +206,10 @@ const makeMonsters = (monsters: monsterAttributes[]) => {
 }
 
 /**
- * @param popup: The state of whether to enable viewing this page.
+//  * @param popup: The state of whether to enable viewing this page.
  * @param blur: The state of whether to blur this page so that window popups can happen.
  */
 type props = {
-  popup: boolean
   blur: boolean
 }
 /**
@@ -221,7 +221,7 @@ type props = {
  *
  * @return The entire Team dashboard. If a popup dialog is detected, nothing will be returned.
  */
-const Team = ({ popup, blur }: props) => {
+const Team = ({ blur }: props) => {
   const [teamData, setTeamData] = useState([] as monsterAttributes[])
 
   useAsync(async () => {
@@ -246,20 +246,17 @@ const Team = ({ popup, blur }: props) => {
   //     sex: 'female',
   //   },
   // ]
-  // localForage.setItem('teamData', gotSomeTeamData)
+  // cache.setItem('teamData', gotSomeTeamData)
   // console.log(teamData)
 
-  if (popup) {
-    return (
-      <Dashboard blur={blur}>
-        <ItemArea>
-          <TypeTable>Type</TypeTable>
-          {makeMonsters(teamData)}
-        </ItemArea>
-      </Dashboard>
-    )
-  }
-  return null
+  return (
+    <Dashboard blur={blur}>
+      <ItemArea>
+        <TypeTable>Type</TypeTable>
+        {makeMonsters(teamData)}
+      </ItemArea>
+    </Dashboard>
+  )
 }
 
 export default memo(Team)
