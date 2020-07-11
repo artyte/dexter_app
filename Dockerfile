@@ -1,10 +1,22 @@
-FROM node:13.12.0-alpine as frontend
-WORKDIR /app
-COPY . .
-RUN yarn
-RUN yarn build
+# pull official base image
+FROM node:13.12.0-alpine
 
-FROM nginx:stable-alpine as webserver
-COPY --from=frontend /app/build /usr/share/nginx/html
-EXPOSE 80
-CMD ["nginx", "-g", "daemon off;"]
+# set working directory
+WORKDIR /app
+
+# add `/app/node_modules/.bin` to $PATH
+ENV PATH /app/node_modules/.bin:$PATH
+
+# install app dependencies
+COPY package.json .
+COPY yarn.lock .
+RUN yarn
+
+# add app
+COPY . .
+
+# Uses port which is used by the actual application
+EXPOSE 4000
+
+# start app
+CMD ["yarn", "start"]

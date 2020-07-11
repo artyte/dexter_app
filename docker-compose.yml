@@ -1,8 +1,19 @@
-version: '3'
+version: '3.8'
 
 services:
   dexter:
-    build: .
-    image: artyte/dexter:1.0.2
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: artyte/dextertest:1.0
+    volumes:
+      - '.:/app'
+      - '/app/node_modules'
     ports:
-      - '80:80'
+      - '80:4000'
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+    stdin_open: true
+
+# remove https settings from package.json before containerizing the application
+# TODO: figure out a way to use https with this container
